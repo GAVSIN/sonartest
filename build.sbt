@@ -52,7 +52,12 @@ scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
 scalacOptions in (Compile, doc) ++= Seq("-unchecked", "-deprecation", "-diagrams", "-implicits", "-skip-packages", "samples")
 
+lazy val ciTests = taskKey[Unit]("Run tests for CI")
 
+ciTests := {
+  // Capture the test result
+  val testResult = (test in Test).result.value
+}
 
 coverageMinimum := 70
 
