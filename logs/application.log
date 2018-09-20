@@ -1,0 +1,21 @@
+2018-09-19 16:28:47,385 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-09-19 16:28:47,399 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2018-09-19 16:28:47,577 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: localhost:9095
+2018-09-19 16:28:47,584 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-3 - onClientError: statusCode = 400, uri = /, message = Host not allowed: localhost:9095
+2018-09-19 16:28:48,423 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-3 - Host not allowed: localhost:9095
+2018-09-19 16:28:48,423 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-3 - onClientError: statusCode = 400, uri = /favicon.ico, message = Host not allowed: localhost:9095
+2018-09-19 16:29:37,821 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-09-19 16:29:37,822 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-09-19 16:29:38,050 [DEBUG] from application.ErrorHandler in application-akka.actor.default-dispatcher-9 - onClientError: statusCode = 404, uri = /favicon.ico, message = 
+2018-09-20 11:22:24,011 [WARN] from play.filters.hosts.AllowedHostsFilter in pool-1-thread-1-ScalaTest-running-HomeControllerSpec - Host not allowed: localhost:9000
+2018-09-20 11:22:24,027 [DEBUG] from application.ErrorHandler in pool-1-thread-1-ScalaTest-running-HomeControllerSpec - onClientError: statusCode = 400, uri = /, message = Host not allowed: localhost:9000

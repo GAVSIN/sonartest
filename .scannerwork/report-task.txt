@@ -1,0 +1,6 @@
+projectKey=test-coverage
+serverUrl=http://172.19.2.9:6090
+serverVersion=7.1.0.11001
+dashboardUrl=http://172.19.2.9:6090/dashboard/index/test-coverage
+ceTaskId=AWX1i3kE7RB56AiSKfmh
+ceTaskUrl=http://172.19.2.9:6090/api/ce/task?id=AWX1i3kE7RB56AiSKfmh
